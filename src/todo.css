@@ -1,0 +1,116 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .todo {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .title {
+    color: #333;
+    font-family: 'Arial, sans-serif';
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .addButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .addButton:hover {
+    background-color: #218838;
+  }
+  
+  .todoList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .editContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .todoContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .editButton, .deleteButton, .saveButton {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .editButton {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .editButton:hover {
+    background-color: #e0a800;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
+  .saveButton {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .saveButton:hover {
+    background-color: #0056b3;
+  }
+  
